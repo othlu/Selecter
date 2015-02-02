@@ -697,6 +697,7 @@
 			// Update
 			if (index >= 0) {
 				_update(index, data);
+				_handleChange(data);
 				_scrollOptions(data);
 			}
 		}
